@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: dark;
+}
+
+html,body{height:100%;}
+body{
+  @apply bg-bg-950 text-white antialiased;
+}
+
+/* subtle grid background */
+.bg-grid{
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255,255,255,0.07) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+/* nice scrollbar */
+*{
+  scrollbar-width: thin;
+  scrollbar-color: rgba(59,130,246,0.6) rgba(255,255,255,0.06);
+}
+*::-webkit-scrollbar{width:10px;height:10px;}
+*::-webkit-scrollbar-track{background:rgba(255,255,255,0.06);}
+*::-webkit-scrollbar-thumb{background:rgba(59,130,246,0.55);border-radius:999px;}
