@@ -28,7 +28,7 @@ export default function HomePage() {
                 Start Your Project <ArrowRight className="h-4 w-4" />
               </ButtonLink>
               <a
-                href={process.env.NEXT_PUBLIC_TELEGRAM_URL || 'https://t.me/'}
+                href={process.env.NEXT_PUBLIC_TELEGRAM_URL || 'https://t.me/upnorth_tech'}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl2 border border-white/10 bg-white/5 px-4 py-3 text-sm font-semibold text-white/85 hover:bg-white/10"
